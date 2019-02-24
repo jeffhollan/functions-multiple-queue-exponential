@@ -1,0 +1,8 @@
+{
+  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectLanguage": "Java",
+  "azureFunctions.templateFilter": "Verified",
+  "azureFunctions.deploySubpath": "target/azure-functions/jehollan-queueretry-java/",
+  "azureFunctions.preDeployTask": "package",
+  "debug.internalConsoleOptions": "neverOpen"
+}
