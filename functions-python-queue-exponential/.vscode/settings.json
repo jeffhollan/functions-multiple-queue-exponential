@@ -10,6 +10,6 @@
   },
   "azureFunctions.pythonVenv": ".env",
   "debug.internalConsoleOptions": "neverOpen",
-  "python.pythonPath": ".env\\Scripts\\python.exe",
+  "python.pythonPath": ".env/bin/python",
   "python.linting.enabled": true
 }

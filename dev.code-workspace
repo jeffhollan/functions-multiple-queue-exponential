@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "functions-csharp-queue-exponential"
+		},
+		{
+			"path": "functions-java-queue-exponential"
+		},
+		{
+			"path": "functions-node-queue-exponential"
+		},
+		{
+			"path": "functions-python-queue-exponential"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	}
+}
