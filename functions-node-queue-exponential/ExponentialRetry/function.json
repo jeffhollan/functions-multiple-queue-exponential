@@ -5,8 +5,8 @@
       "type": "serviceBusTrigger",
       "direction": "in",
       "queueName": "queue",
-      "connection": ""
+      "connection": "ServiceBusConnectionString"
     }
   ],
-  "scriptFile": "..\\dist\\ExponentialRetry\\index.js"
+  "scriptFile": "../dist/ExponentialRetry/index.js"
 }

@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "msg",
+      "type": "serviceBus",
+      "queueName": "queue",
+      "connection": "ServiceBusConnectionString",
+      "direction": "out"
+    }
+  ],
+  "scriptFile": "../dist/AddQueueItem/index.js"
+}

@@ -21,7 +21,7 @@ import static org.mockito.Mockito.mock;
 /**
  * Unit test for Function class.
  */
-public class FunctionTest {
+public class AddQueueItemTest {
     /**
      * Unit test for HttpTriggerJava method.
      */
@@ -50,7 +50,7 @@ public class FunctionTest {
         doReturn(Logger.getGlobal()).when(context).getLogger();
 
         // Invoke
-        final HttpResponseMessage ret = new Function().run(req, context);
+        final HttpResponseMessage ret = new AddQueueItem().run(req, context);
 
         // Verify
         assertEquals(ret.getStatus(), HttpStatus.OK);
